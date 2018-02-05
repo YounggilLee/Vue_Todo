@@ -4,6 +4,7 @@
            :value="newTodo"
            @change="getTodo"
            placeholder="I need to...">
+    <br/>
     <button class="btn btn-primary" @click="addTodo">Add Todo</button>
   </div>
 </template>
